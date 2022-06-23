@@ -106,6 +106,20 @@ How to push the files to remote repository
 
 git push origin main
 
+To see the status of the current git repository please give the command as
+
+git status 
+
+To See the difference between committed code and uncommitted code, then you please run the command as
+
+git diff
+
+To see the list of commands executed in github, and see the history of logs, then we need the command as
+
+git log
+
+git log --oneline
+
 
 
 
