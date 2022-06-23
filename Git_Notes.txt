@@ -121,6 +121,50 @@ git log
 git log --oneline
 
 
+git commit -a : 
+
+Commits a snapshot of all changes in the working directory. 
+
+Which situation, we need to use git commit -a is, assume you are not created any new files, only you did modifications in the given file, then need to record the changes of existing file, then no need to give 
+git add ., instead of directly you can run the commnad as
+
+git commit -a -m "message"
+
+here -a records the snapshot of given file changes as new files are not created. 
+
+If you give the command 
+
+git status in git working directory, it shows the list of files/content
+which is not added to the staging area 
+
+How to Undo the changes of the given file, 
+as i want to retain the content as old commit only, then 
+
+git checkout filename 
+
+Git Reset allows you to move commits from history back into working or staging area. 
+
+It can also be used to throw the changes away. 
+
+Example :
+
+git add hello.txt
+
+then its added to the staging area. 
+
+Now, if you want to unstage the given files, then 
+
+git reset HEAD hello.txt
+
+Now, whatever staged content will be unstaged automatically. 
+
+Git Branching : 
+________________
+
+Here, we need to take care of merge conflicts 
+
+
+
 
 
 
