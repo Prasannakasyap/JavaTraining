@@ -1,0 +1,97 @@
+
+
+Git 
+
+	In this session, we are going to discuss about
+
+		Version Control Systems
+
+		About GIT
+
+		Git WorkFlow Life Cycle
+
+		Creating GIT Repo
+
+		Git Commands
+
+		
+
+1) What is Version Control System 
+
+Version Control sysstem is a systsem that records changes to a file or set of files
+
+There are various version control systems are there as
+
+	-> Local Version Control Systems
+
+	-> Centralized Version Control Systems
+
+	-> Distributed Version Control Systems (GIT)
+
+
+2) Why Vesion Control System : 
+
+	Version Control system provides idea of coding implemented in earlier versions
+
+	Gives you great support for different version of same project 
+
+	Providing concurrent work and implements merge changes 
+
+
+Git : 
+
+Git is a free and open-source distributed version control system designed to handle everything from small to large projects with speed and efficiency. 
+
+Every git working directory contains a full flexged repository with complete history of tracking capabilities.
+
+It is not dependent on neetwork acccess or a central server. 
+
+Goals : 
+
+   Speed
+
+   Support for development
+
+   Fully Distributed
+
+   Able to handle large projects efficiently
+
+
+In Git we have main states or areas known as
+
+   -> Working Directory 
+
+	This is the git repository diretory, where we can store all the information. 
+
+   -> Staging Area : It is a simple file, generally presnent in your git diretory, that stores information 
+		about all the commits. {whatever code you want to push, first to be commited into staging area}
+
+   -> Git Local Directory : This is the local git repository, where the changes get finalized before going to 				git remote. 
+
+   -> Git Remote Directory : This is the directory, where we can get all updated commited code, and all changes 				will be reflected here. 
+
+
+
+https://github.com/Prasannakasyap/JavaTraining
+
+
+After creating repository, open git bash and in that run the below commands
+
+git config --global user.name "prasannakasyap"
+
+git config --global user.email "puiangtraining@gmail.com"
+
+
+First step you need to do is 
+
+Once any client gives git repo, first you need to clone that. 
+
+for that you please run the command as
+
+git clone gitUrl
+
+
+
+
+
+
