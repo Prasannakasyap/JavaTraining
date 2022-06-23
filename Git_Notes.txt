@@ -90,6 +90,21 @@ for that you please run the command as
 
 git clone gitUrl
 
+git clone https://github.com/Prasannakasyap/JavaTraining
+
+How to add a file to the staging area 
+
+git add .
+
+Hot to add the files to local repository 
+
+git commit -m "message"
+
+git commit -m "Git Notes uploaded"
+
+How to push the files to remote repository 
+
+git push origin main
 
 
 
