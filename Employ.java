@@ -11,6 +11,14 @@ public class Employ {
         return "Employ Number  " +empno+ " Employ Name  " +name+ " Basic  " +basic;
     }
 
+    public Employ() {}
+
+    public Employ(int empno, String name, double basic) {
+            this.empno=empno;
+            this.name=name;
+            this.basic=basic;
+    }
+
     public static void main(String[] args) {
         Employ e1 = new Employ();
         e1.empno=1;
