@@ -106,8 +106,8 @@ ______________
 
 empno cannot be zero or negative
 name contains min. 5 characters
-dept is either Java or Dotnet or Sql
-desig is either SWE or SSE or TL
+dept contains min 3 characters
+desig contains min 4 characters
 basic must be between 20000 and 90000
 
 If any validation fails, raise CustomExceptions.
