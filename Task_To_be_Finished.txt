@@ -1,0 +1,41 @@
+import java.util.Date;
+
+public class LeaveDetails {
+
+   private int empId;
+   private int leaveId;
+   private Date leaveStartDate;
+   private Date leaveEndDate;
+   private int noOfDays;
+   private String leaveReason;
+}
+
+
+Please perform 
+
+1) Add Leave
+2) Search Leave
+3) Show Leaves
+4) Delete Leave
+5) Update Leave 
+
+validations : 
+_______________
+
+1) LeaveStartDate Cannot be yesterday
+2) LeaveEndDate Cannot be Yesterday
+3) LeaveStartDate cannot be greater than LeaveEndDate
+4) noOfDays to be calculated as 
+If you apply from June 28 2022 to June 30 2022 then noOfDays are 3 days
+
+Files Required : 
+_________________
+
+LeaveDetails
+LeaveDetailsException
+LeaveDetailsDAO
+LeaveDetailsBAL
+LeaveDetailsMain
+
+
+
